@@ -1,0 +1,48 @@
+.cards {
+	padding: 6rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "cards1  cards2" "cards1  cards3";
+	gap: 2rem;
+	h4 {
+		color: white;
+		font-family:$fontBeba;
+		font-weight: 300;
+		text-align: center;
+		padding: 10px;
+		text-shadow: 0 1px 1px #000000;
+	}
+	h5 {
+		color:white;
+		font-family: $fontBeba;
+		font-weight: 300;
+		padding: 20px;
+		text-align: right;
+		font-size: 1.56rem;
+		text-shadow: 0 1px 1px #ffffff;
+		color: black
+	}
+}
+.cards__uno {
+	grid-area: cards1;
+	background-image: url(../img/cards__uno.png);
+	border-radius: 1rem;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+}
+.cards__dos {
+	grid-area: cards2;
+	background-image: url(../img/armazones.png);
+	border-radius: 1rem;
+	background-size: cover;
+	background-position: center;
+}
+.cards__tres {
+	grid-area: cards3;
+	background-image: url(../img/anteojos__cards2.png);
+	border-radius: 1rem;
+	background-size: cover;
+	background-position: center;
+}

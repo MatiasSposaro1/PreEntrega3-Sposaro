@@ -1,0 +1,26 @@
+
+.about {
+	border-bottom: #0561e7 solid 10px;
+	padding: 130px 0 90px 0;
+	.about_img {
+		margin-left: -60px;
+		figure {
+			margin: 0%;
+		}
+	}
+	.titlepage {
+		border: #0561e7 solid 1px;
+		padding: 40px 40px;
+		z-index: 10018;
+		background: #fff;
+		margin-right: 40px;
+		font-size: 35px;
+	}
+	.icon-list {
+		width: 100%;
+		max-width: 100rem;
+		padding: 0 15.5rem;
+		display: flex;
+		justify-content: space-between;
+	  }
+}

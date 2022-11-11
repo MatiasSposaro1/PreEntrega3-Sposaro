@@ -1,0 +1,85 @@
+.inicio{
+    .carousel-caption{
+        top: 20%;
+    }
+}
+.carousel-caption {
+	.carousel-titulo {
+		font-family: $fontBeba;
+		text-align: center;
+        color:rgb(255, 255, 255);
+		text-shadow: 0 7px 3px #0066ff;
+		font-size: 4em;
+		width: 20px;
+		height: 200px;
+	}
+    .carousel-titulo2{
+        font-family: $fontBeba;
+        line-height: 1.5em;
+        color:rgb(255, 255, 255);
+        font-size: 6em;
+        letter-spacing: 10px;
+        text-shadow: 0 5px 3px #0066ff;
+        padding: 6%;
+    }
+}
+.carousel-item {
+	span {
+		position: relative;
+		display: inline-flex;
+		width: 180px;
+		height: 55px;
+	}
+	p {
+		font-family: $fontBeba;
+		line-height: 1.5em;
+		color: rgb(255, 255, 255);;
+		font-size: 6em;
+		letter-spacing: 10px;
+		text-shadow: 0 5px 3px #0066ff;
+		padding: 6%;
+	}
+}
+span {
+	a {
+		font-size: 20px;
+		letter-spacing: 1px;
+		transform-style: preserve-3d;
+		transform: translateZ(-25px);
+		transition: transform .25s;
+		font-family: $fontBeba;
+		&:before {
+			position: absolute;
+			content: "SHOP NOW";
+			height: 55px;
+			width: 200px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 5px solid #0561e7;
+			box-sizing: border-box;
+			border-radius: 5px;
+			color: #fff;
+			background: #000;
+			transform: rotateY(0deg) translateZ(25px);
+		}
+		&:after {
+			position: absolute;
+			content: "SHOP NOW";
+			height: 55px;
+			width: 200px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 5px solid #0561e7;
+			box-sizing: border-box;
+			border-radius: 5px;
+			color: rgb(255, 255, 255);
+			transform: rotateX(90deg) translateZ(25px);
+		}
+		&:hover {
+			transform: translateZ(-25px) rotateX(-90deg);
+		}
+	}
+}
+

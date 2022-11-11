@@ -1,0 +1,51 @@
+form {
+    max-width: 600px;
+    margin: 100px auto;
+
+    .feedback-input {
+        color: $mainColor;
+        font-family: $fontBeba;
+        font-weight: 600;
+        font-size: 18px;
+        border-radius: 5px;
+        line-height: 22px;
+        background-color: transparent;
+        border: 2px solid;
+        transition: all 0.3s;
+        padding: 30px;
+        margin-bottom: 25px;
+        width: 100%;
+        box-sizing: border-box;
+        outline: 0;
+
+        &:focus {
+            border: 2px solid #0561e7;
+        }
+    }
+
+    textarea {
+        height: 150px;
+        line-height: 150%;
+        resize: vertical;
+    }
+
+    [type="submit"] {
+        font-family: $fontBeba;
+        width: 100%;
+        background: #0561e7;
+        border-radius: 5px;
+        border: 0;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: all 0.3s;
+        margin-top: -4px;
+        font-weight: 700;
+
+        &:hover {
+            background: #252525;
+        }
+    }
+}

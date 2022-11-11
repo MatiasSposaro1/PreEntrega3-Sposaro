@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- basic -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Laboratorio Optico Virtual|Tienda</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+  <!-- Tweaks -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+    media="screen">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- style css -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <div class="logo-header">
+      <a href="./index.html"><img src="./img/logovirtual.png" alt=""></a>
+    </div>
+    <nav class="nav-menu">
+      <input type="checkbox" id="check">
+      <label for="check" class="check__btn">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="./pages/tienda.html">Tienda</a></li>
+        <li><a href="./pages/nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="./pages/noticias.html">Noticias</a></li>
+        <li><a href="./pages/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- end header -->
+
+  <!--Inicio-->
+  <section class="inicio">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/banner22.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h1 class="carousel-titulo">Bienvenido a tu Optica Virtual</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner4.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="carousel-titulo2">Visita nuestra Tienda</h5>
+            <span><a href="./pages/tienda.html"></a></span>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>@Laboratorio Optico Virtual🕶️</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- cards -->
+  <section class="cards">
+    <div class="cards__uno">
+      <h5>#Actualizate_@-la-Moda</h5>
+    </div>
+    <div class="cards__dos">
+      <h4>Mejores precios y armazones</h4>
+    </div>
+    <div class="cards__tres">
+    </div>
+  </section>
+
+  <!--  footer -->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <ul class="location_icon">
+              <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> Location</li>
+              <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br> +01 1234567890</li>
+              <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> demo@gmail.com</li>
+              <p>© 2022 Derechos Reservados</a></p>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <!-- end footer -->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
